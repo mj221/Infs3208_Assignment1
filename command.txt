@@ -1,0 +1,2 @@
+docker build -t a1:LEE .
+docker run -p 80:80 -v $PWD/src:/var/www/html/ --name cca1_nginx_php -d a1:LEE
